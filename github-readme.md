@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Cosmic Classifier project, an advanced machine learning solution developed by our Team Helios for the Galactic Classification Challenge (GCC) 2025 hosted by IIT Roorkee. This project tackles the fascinating challenge of classifying exoplanets based on their potential for human survival and resource availability.
+Welcome to the Cosmic Classifier project, an advanced machine learning solution developed by our TEAM HELIOS for the Galactic Classification Challenge (GCC) 2025 hosted by IIT Roorkee. This project tackles the fascinating challenge of classifying exoplanets based on their potential for human survival and resource availability.
 
 In the year 2547, Dr. Klaus Reinhardt transmitted crucial planetary classification data before being consumed by a black hole. Unfortunately, the transmission was partially corrupted due to gravitational interference. Our mission is to decode this damaged dataset and accurately classify planets to secure humanity's future among the stars.
 
@@ -14,7 +14,7 @@ The Cosmic Classifier uses multiple machine learning models to categorize planet
 
 ## Project Snapshots
 
-image
+![webpage]( https://github.com/Abishekkumar01/Cosmic-Classifier-/blob/main/image/cosmic.jpg "webpage")
 
 ## 📊 Dataset Description
 
@@ -147,12 +147,12 @@ This project was developed for the Galactic Classification Challenge (GCC) organ
 
 ## 👥 Team HELIOS
 
-- Raj Singh Chauhan (https://github.com/member1)
-- Chetan Singh Chouhan (https://github.com/member2) 
-- Aman Choudhary (https://github.com/member3) 
-- Abishek Kumar TS (https://github.com/member3) 
-- Pranav Sahu (https://github.com/member3) 
-
+- Raj Singh Chauhan (https://github.com/rajchauhan28)
+- Chetan Singh Chouhan (https://github.com/Chetansingh384) 
+- Aman Choudhary (https://github.com/amanchoudhary86) 
+- Abishek Kumar TS (https://github.com/Abishekkumar01) 
+- Pranav Sahu (https://github.com/pranavsahu99s) 
+ 
 ## 📚 References
 
-- Drive link - dataset & word doc
+- Drive link - https://drive.google.com/drive/folders/1QV_t0xy4Go1cpHm0VNZROjN87KLJDw-B?usp=drive_link
