@@ -1,10 +1,8 @@
 # Cosmic Classifier 🌌
 
-![Cosmic Banner](https://via.placeholder.com/800x200?text=Cosmic+Classifier)
-
 ## Introduction
 
-Welcome to the Cosmic Classifier project, an advanced machine learning solution developed for the Galactic Classification Challenge (GCC) 2025 hosted by IIT Roorkee. This project tackles the fascinating challenge of classifying exoplanets based on their potential for human survival and resource availability.
+Welcome to the Cosmic Classifier project, an advanced machine learning solution developed by our Team Helios for the Galactic Classification Challenge (GCC) 2025 hosted by IIT Roorkee. This project tackles the fascinating challenge of classifying exoplanets based on their potential for human survival and resource availability.
 
 In the year 2547, Dr. Klaus Reinhardt transmitted crucial planetary classification data before being consumed by a black hole. Unfortunately, the transmission was partially corrupted due to gravitational interference. Our mission is to decode this damaged dataset and accurately classify planets to secure humanity's future among the stars.
 
@@ -14,11 +12,9 @@ This repository contains the complete solution including data preprocessing, exp
 
 The Cosmic Classifier uses multiple machine learning models to categorize planets into 10 distinct classes based on 10 planetary attributes. We've implemented a robust comparison framework to evaluate several classification algorithms and select the most effective approach.
 
-### 🌠 The Challenge
+## Project Snapshots
 
-- **Classification Task**: Predict planet types using 10 attributes including atmospheric density, surface temperature, gravity, water content, etc.
-- **Noisy Data**: Handle transmission interference and missing values in the dataset
-- **High Stakes**: Accuracy is crucial as humanity's survival depends on correct classification
+image
 
 ## 📊 Dataset Description
 
@@ -70,6 +66,11 @@ An adaptive boosting algorithm that adjusts the importance of training examples 
 
 ### 6. XGBoost Classifier
 An optimized implementation of gradient boosting that combines regularization with efficient computation. This state-of-the-art algorithm often achieves superior performance on structured data problems.
+
+## Technologies / Frameworks Used
+- Streamlit
+- Python
+- Scikit learn
 
 ## 🛠️ Technical Features
 
@@ -137,30 +138,6 @@ with open("decision_tree_model.pkl", "rb") as model_file:
 predictions = model.predict(new_data)
 ```
 
-## 📁 Repository Structure
-
-```
-cosmic-classifier/
-├── data/
-│   ├── train.csv          # Training dataset
-│   └── test.csv           # Test dataset (without labels)
-├── notebooks/
-│   ├── EDA.ipynb          # Exploratory Data Analysis
-│   └── Model_Training.ipynb # Model development and evaluation
-├── models/
-│   └── decision_tree_model.pkl # Serialized model
-├── results/
-│   └── model_performance.csv  # Performance metrics for all models
-├── src/
-│   ├── data_preprocessing.py  # Data cleaning and preparation scripts
-│   ├── feature_engineering.py # Feature creation and transformation
-│   ├── model_training.py      # Model training utilities
-│   └── evaluation.py          # Metrics calculation and visualization
-├── README.md              # Project documentation
-├── requirements.txt       # Project dependencies
-└── Cosmic_Classifier_Solution.ipynb # Main solution notebook
-```
-
 ## 🎯 Competition Information
 
 This project was developed for the Galactic Classification Challenge (GCC) organized by Cognizance, IIT Roorkee's annual technical festival. The competition consisted of two rounds:
@@ -168,22 +145,14 @@ This project was developed for the Galactic Classification Challenge (GCC) organ
 1. **Round 1 (Code Submission)**: Qualification round requiring a Python notebook solution
 2. **Round 2 (Offline Testing)**: On-site evaluation at IIT Roorkee with new test data
 
-## 👥 Team
+## 👥 Team HELIOS
 
-- [Team Member 1](https://github.com/member1) - Role/Contribution
-- [Team Member 2](https://github.com/member2) - Role/Contribution
-- [Team Member 3](https://github.com/member3) - Role/Contribution
+- Raj Singh Chauhan (https://github.com/member1)
+- Chetan Singh Chouhan (https://github.com/member2) 
+- Aman Choudhary (https://github.com/member3) 
+- Abishek Kumar TS (https://github.com/member3) 
+- Pranav Sahu (https://github.com/member3) 
 
 ## 📚 References
 
-1. Research papers and articles that influenced our approach
-2. Key machine learning resources that supported the project
-3. Documentation for libraries and frameworks used
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-*Disclaimer: This project was created for educational purposes as part of the Galactic Classification Challenge (GCC) 2025. The fictional narrative about Dr. Klaus Reinhardt and humanity's future is part of the competition's theme.*
+- Drive link - dataset & word doc
